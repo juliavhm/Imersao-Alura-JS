@@ -1,5 +1,7 @@
+
+var nome = prompt ('Qual é seu nome?')
 var valorEmDolar = 30;
 alert('$ ' + valorEmDolar)
 var dolar = 5.32;
 var conversao = valorEmDolar * dolar
-alert('R$ ' + conversao.toFixed(2))
+alert(nome + ', o valor é R$ ' + conversao.toFixed(2))
